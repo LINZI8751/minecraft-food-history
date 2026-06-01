@@ -314,6 +314,14 @@ figcaption code {
   background: #111;
 }
 
+#report-video iframe {
+  display: block;
+  width: 100% !important;
+  height: clamp(260px, 45vw, 560px) !important;
+  border: 0;
+  background: #111;
+}
+
 .image-grid {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
