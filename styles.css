@@ -322,6 +322,32 @@ figcaption code {
   background: #111;
 }
 
+.video-link-row {
+  margin: 0;
+  padding: 16px;
+  background: #fff;
+  text-align: center;
+}
+
+.video-link {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 44px;
+  padding: 8px 18px;
+  border-radius: 999px;
+  background: var(--accent);
+  color: #fff;
+  font-weight: 800;
+  text-decoration: none;
+}
+
+.video-link:hover,
+.video-link:focus-visible {
+  background: #244f3d;
+  outline: none;
+}
+
 .image-grid {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
